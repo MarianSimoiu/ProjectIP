@@ -1,0 +1,118 @@
+body {
+  background-image: url("images/poza.jpg");
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 300%;
+  display: inline;
+  white-space: nowrap;
+  padding-left: 5px;
+  color: #053d67;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: inline;
+  position: relative;
+  left: 20px;
+  font-size: 150%;
+  color: #090960;
+}
+
+img {
+  border-radius: 30%;
+  width: 7%;
+}
+
+#image {
+  display: inline;
+  width: 7%;
+}
+
+#frm {
+  text-align: center;
+  border: gray 1px;
+  width: 25%;
+  background: #f3f3f3;
+  position: relative;
+  left: 570px;
+  top: 150px;
+  border-radius: 5%;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Arial;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  color: #a1a2ff;
+  padding: 10px;
+}
+
+#btn {
+  display: block;
+  width: 260px;
+  border: none;
+  background-color: #4b9ede;
+  color: white;
+  padding: 3px 3px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  left: 60px;
+  height: 25px;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 25px;
+  background-color: #c4c4c4;
+  border: #c4c4c4;
+  position: relative;
+  top: 5px;
+  bottom: 10px;
+}
+
+input[type="password"] {
+  width: 250px;
+  height: 25px;
+  background-color: #c4c4c4;
+  border: #c4c4c4;
+  position: relative;
+  top: 5px;
+  bottom: 10px;
+}
+
+#btn:hover {
+  background-color: #8cc8f6;
+}
+
+#container {
+  position: relative;
+  top: 150px;
+  right: 40px;
+  text-align: center;
+}
+
+.lab {
+  font-size: 125%;
+  position: relative;
+  right: 75px;
+  color: #000000;
+}
+
+label {
+  font-style: Robot;
+}
+
+.item {
+  position: relative;
+  right: 50px;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  cursor: pointer;
+}
